@@ -40,4 +40,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    //네이버 api sdk 의존성 추가
+    implementation("com.naver.maps:map-sdk:3.18.0")
 }
