@@ -19,9 +19,6 @@
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="r3iwrgyyxq" />
-        <meta-data
-            android:name="com.naver.maps.map.CLIENT_TYPE"
-            android:value="gov" />
 
         <activity
             android:name=".FindPwd"

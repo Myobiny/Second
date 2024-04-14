@@ -43,4 +43,5 @@ dependencies {
 
     //네이버 api sdk 의존성 추가
     implementation("com.naver.maps:map-sdk:3.18.0")
+
 }
