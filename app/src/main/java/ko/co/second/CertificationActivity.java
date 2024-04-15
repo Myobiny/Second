@@ -18,7 +18,13 @@ public class CertificationActivity extends AppCompatActivity {
         Button moveMapButton = findViewById(R.id.messageCheckButton);
 
 
-
+        moveMapButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),MapActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

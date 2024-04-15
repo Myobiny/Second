@@ -1,5 +1,8 @@
 plugins {
     id("com.android.application")
+
+    //모듈(앱 수준) build.gradle.kts 파일에서 google-services 플러그인설치
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -44,4 +47,10 @@ dependencies {
     //네이버 api sdk 의존성 추가
     implementation("com.naver.maps:map-sdk:3.18.0")
 
+    //firebase sdk 의존성 추가
+    implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
+    // TODO: Add the dependencies for Firebase products you want to use
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation("com.google.firebase:firebase-analytics")
+    implementation ("com.google.firebase:firebase-auth")
 }
