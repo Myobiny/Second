@@ -41,7 +41,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView6" />
 
     <EditText
-        android:id="@+id/input_phone_num"
+        android:id="@+id/phone_layout"
         android:layout_width="294dp"
         android:layout_height="48dp"
         android:layout_marginBottom="450dp"
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView6" />
 
     <Button
-        android:id="@+id/messageButton"
+        android:id="@+id/btn_getotp"
         android:layout_width="290dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
@@ -66,10 +66,10 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/input_phone_num" />
+        app:layout_constraintTop_toBottomOf="@+id/phone_layout" />
 
     <EditText
-        android:id="@+id/editNumber"
+        android:id="@+id/et_phone"
         android:layout_width="294dp"
         android:layout_height="48dp"
         android:layout_marginTop="40dp"
@@ -94,6 +94,6 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/editNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/et_phone" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

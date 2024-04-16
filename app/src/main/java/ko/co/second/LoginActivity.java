@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
 
         Button moveFindButton = findViewById(R.id.findId_button);
         Button moveFindPwdButton = findViewById(R.id.findpwd_button);
-
+        Button moveMapButton = findViewById(R.id.start);
         moveFindButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,5 +32,14 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        moveMapButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

@@ -60,14 +60,13 @@
         android:layout_marginRight="20dp"
         android:backgroundTint="#F7F5DB"
         android:fontFamily="@font/laundrygothic_bold"
+        android:onClick="moveCertificateButton"
         android:text="회원가입"
         android:textColor="#7E5D08"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Login"
-        android:onClick="moveCertificateButton"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/Login" />
 
     <TextView
         android:id="@+id/textView20"
@@ -80,5 +79,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

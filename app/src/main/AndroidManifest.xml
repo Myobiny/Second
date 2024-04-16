@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Second"
         tools:targetApi="31">
         <activity
+            android:name=".GoogleLogin"
+            android:exported="false" />
+        <activity
             android:name=".MapActivity"
             android:exported="false" />
 
