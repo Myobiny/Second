@@ -12,16 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Second"
         tools:targetApi="31">
-        <activity
-            android:name=".MainHome"
-            android:exported="false"
-            android:label="@string/title_activity_main_home" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".GoogleLogin"
-            android:exported="false" />
+
         <activity
             android:name=".MapActivity"
             android:exported="false" />
@@ -56,5 +47,9 @@
         </activity>
        <activity android:name=".PagerActivity" />
     </application>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

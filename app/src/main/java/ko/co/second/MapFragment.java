@@ -1,5 +1,6 @@
 package ko.co.second;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,8 @@ import androidx.fragment.app.Fragment;
 
 public class MapFragment extends Fragment {
 
+
+    //원래
     public static MapFragment newInstance() {
         MapFragment fp = new MapFragment();
         Bundle bundle = new Bundle();
@@ -19,6 +22,7 @@ public class MapFragment extends Fragment {
         return fp;
     }
 
+    //ㅇ
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

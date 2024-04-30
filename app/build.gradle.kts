@@ -66,6 +66,8 @@ dependencies {
     implementation ("androidx.navigation:navigation-fragment:2.5.3")
     implementation ("androidx.navigation:navigation-ui:2.5.3")
     implementation ("com.google.android.material:material:1.4.0.")
+    //네이버 지도 위치 표시 FusedLocationSource 의존성 추가
+    implementation ("com.google.android.gms:play-services-location:20.0.0")
 
 
 }
